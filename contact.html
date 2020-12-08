@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Savannah Walpole Multimedia</title>
+    <meta name="viewport" content="width=device-width,initial scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="styles/contactstyle.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+
+<div class="topnav" id="myTopnav">
+    <a href="index.html" class="active"><img src="images/logo%20resized.jpg" alt="savannah walpole logo"></a>
+    <a href="contact.html" class="react">Contact</a>
+    <a href="projects.html" class="react">Projects</a>
+    <a href="#about" class="react">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+        
+    <main>
+    <div class="container">
+  <form action="https://formspree.io/f/mzbkjdpy" method="post">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+          <label for="Tcompany">Company</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="Tcompany" name="company" placeholder="Your company name..">
+      </div>
+    </div>
+       <div class="row">
+      <div class="col-25">
+        <label for="Jtitle">Job Title</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="Jtitle" name="jobtitle" placeholder="Your job title..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="message">Message</label>
+      </div>
+      <div class="col-75">
+        <textarea id="message" name="message" placeholder="Write here.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+        </main>
+        
+        
+         <footer>
+  <p>Savannah Walpole Multimedia 2020<br>
+      <a href="contact.html">Contact</a>
+      <a href="projects.html">Projects</a></p>
+</footer>
+    </body>
+</html>
